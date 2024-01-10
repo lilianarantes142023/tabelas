@@ -1,0 +1,44 @@
+#table1 {
+    border-collapse: collapse;/*borda grudada propria de tabela*/  
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    width: 850px;/*largura da tabela*/
+    margin:auto;
+}
+th, td {
+    border: 1px solid #FFA500;/*linhas e colunas com divisor amarelo*/
+    padding: 10px; /*espaçamento interno das letras */
+    text-align: center;/*centralizar texto*/
+ }
+ th {
+    border: 1px solid #FFf;
+    background-color: #0044ff; /*configurar o cabeçalho com cor azul*/
+    color: #FFFFFF;
+    font-size: 14px;
+ }
+ tfoot{
+    text-align: center; /*centralizar a tabela*/
+  }  
+ .alinhamento-centro{
+    text-align: center;/*alinhar somente o tamanho*/
+ }
+
+caption {
+   color:  #0044ff;
+   font-size: 20px; /*tamanho da letra*/
+    font-family: Arial, sans-serif;
+ }
+
+ #t2{
+    background-color: rgb(186, 226, 43);
+    border-collapse: collapse;
+    padding: 10px;
+ }
+ #t2a{
+    border-bottom: #ff0000 2px solid;/*bordar somente embaixo*/
+ }
+ tr:nth-child(even){
+    background-color: aquamarine /*pseudo class para deixar zebrado linha colorida (even para par)(odd para impares)(2 exemplo para linha 2 e assim por diante)*/
+ }
+
+ 
